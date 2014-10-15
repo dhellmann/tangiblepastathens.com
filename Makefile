@@ -3,6 +3,7 @@ DEPLOYDIR     = /home/douhel3shell/tangiblepastathens.com
 
 help:
 	@echo deploy - copy site to server
+	@echo test - run the test server on port 8080
 
 .PHONEY: deploy
 deploy: sitemap
