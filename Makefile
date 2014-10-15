@@ -16,3 +16,7 @@ sitemap:
 .PHONEY: sitemap-announce
 sitemap-announce:
 	./bin/sitemap_gen.py --config=etc/sitemap_gen_config.xml
+
+.PHONEY: test
+test:
+	(cd content && python -m SimpleHTTPServer 8080)
