@@ -11,3 +11,11 @@ div#right {
 	left: 680px;
 	width: 200px;
 }
+
+a {
+	color: rgb(162, 35, 40);
+}
+
+a:visited {
+	color: black;
+}
