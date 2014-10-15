@@ -12,6 +12,17 @@ div#right {
 	width: 200px;
 }
 
+/* Adjust the layout for smaller screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	div#left {
+		top: -1000px;
+	}
+	div#right {
+		top: -1500px;
+	}
+}
+
+/* link colors */
 a {
 	color: rgb(162, 35, 40);
 }
