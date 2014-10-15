@@ -1,0 +1,18 @@
+/* body { */
+/* 	background-image: url("background.jpg"); */
+/* 	background-repeat: no-repeat; */
+/* } */
+
+ul#samples1 {
+	position: relative;
+	top: -800px;
+	left: 50px;
+	width: 200px;
+}
+
+ul#samples2 {
+	position: relative;
+	top: -1175px;
+	left: 680px;
+	width: 200px;
+}
