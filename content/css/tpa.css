@@ -1,13 +1,13 @@
 div#left {
 	position: relative;
-	top: -880px;
+	top: -800px;
 	left: 50px;
-	width: 200px;
+	width: 220px;
 }
 
 div#right {
 	position: relative;
-	top: -1350px;
+	top: -1100px;
 	left: 680px;
 	width: 200px;
 }
@@ -15,10 +15,10 @@ div#right {
 /* Adjust the layout for smaller screens */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	div#left {
-		top: -1000px;
+		top: -900px;
 	}
 	div#right {
-		top: -1500px;
+		top: -1250px;
 	}
 }
 
