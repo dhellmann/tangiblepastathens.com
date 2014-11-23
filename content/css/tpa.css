@@ -12,6 +12,34 @@ div#right {
 	width: 200px;
 }
 
+/* link colors */
+a {
+	color: rgb(162, 35, 40);
+}
+
+a:visited {
+	color: black;
+}
+
+div#left-retailer {
+	position: relative;
+	top: -900px;
+	left: 50px;
+	width: 240px;
+}
+
+div#right-retailer {
+	position: relative;
+	top: -1350px;
+	left: 680px;
+	width: 200px;
+}
+
+ul.retailer-list li {
+	list-style-type: none;
+	padding-bottom: 0.25em;
+}
+
 /* Adjust the layout for smaller screens */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	div#left {
@@ -20,13 +48,10 @@ div#right {
 	div#right {
 		top: -1250px;
 	}
-}
-
-/* link colors */
-a {
-	color: rgb(162, 35, 40);
-}
-
-a:visited {
-	color: black;
+	div#left-retailer {
+		top: -1000px;
+	}
+	div#right-retailer {
+		top: -1500px;
+	}
 }

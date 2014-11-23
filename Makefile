@@ -20,4 +20,5 @@ sitemap-announce:
 
 .PHONEY: test
 test:
+	(sleep 1 && open http://localhost:8080) &
 	(cd content && python -m SimpleHTTPServer 8080)
