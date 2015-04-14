@@ -23,14 +23,14 @@ a:visited {
 
 div#left-retailer {
 	position: relative;
-	top: -900px;
+	top: -1000px;
 	left: 50px;
 	width: 240px;
 }
 
 div#right-retailer {
 	position: relative;
-	top: -1400px;
+	top: -1500px;
 	left: 680px;
 	width: 200px;
 }
@@ -52,6 +52,6 @@ ul.retailer-list li {
 		top: -1000px;
 	}
 	div#right-retailer {
-		top: -1500px;
+		top: -1600px;
 	}
 }
